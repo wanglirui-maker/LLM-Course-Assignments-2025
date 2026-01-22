@@ -13,7 +13,7 @@ plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS', 'DejaVu Sans']
 plt.rcParams['axes.unicode_minus'] = False
 
 # === DeepSeek API 配置 ===
-DEEPSEEK_API_KEY = "sk-ad0535f2bf63423f8cbc3521540eb0bb"  # ←←← 替换为你的 DeepSeek 密钥！
+DEEPSEEK_API_KEY = "sk-"  # ←←← 替换为你的 DeepSeek 密钥！
 
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
@@ -209,4 +209,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
